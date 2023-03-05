@@ -1,4 +1,6 @@
 import './App.css';
+import Landing from './components/images/Landing.svg';
+
 // Landing Page Component
 
 /*
@@ -7,25 +9,26 @@ the login page or the signup page.
 */
 function App() {
   return (
-    <div>
+    <div className="landing-page-main">
       <div className="grow-money-image">
-        <h2>Place Image here</h2>
+        {' '}
+        <img src={Landing} alt="Landing Image" className="landing-image" />
       </div>
-      <div>
+
+      <div className="invest-money-section">
         <h1>Invest Your Money</h1>
       </div>
-      <div>Toggle Bars Here</div>
 
       <div>
-        <p>
+        <p className="landing-page-description">
           Get acces to risk free investments that will multiple your income and
           pay high returns in few months.
         </p>
       </div>
 
-      <div>
-        <button>CREATE YOUR ACCOUNT</button>
-        <button>LOGIN INTO YOUR ACCOUNT </button>
+      <div className="buttons-section">
+        <button className="create-acc-button">CREATE YOUR ACCOUNT</button>
+        <button className="login-acc-button">LOGIN INTO YOUR ACCOUNT </button>
       </div>
     </div>
   );
