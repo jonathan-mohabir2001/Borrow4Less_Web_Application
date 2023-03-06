@@ -1,0 +1,30 @@
+.Money-Tree-Image {
+  margin: 0 auto;
+  left: 10px;
+}
+.title-user-selection {
+  display: flex;
+  justify-content: center;
+}
+
+.types-of-users-images {
+  display: flex;
+  justify-content: center;
+}
+
+.borrower-image {
+  width: 200px; /* replace with your desired width */
+}
+
+.lender-image {
+  width: 200px; /* replace with your desired width */
+}
+.bottom-section{
+  display: flex;
+  justify-content: center;
+}
+.user-selection-login{
+  display: flex;
+  justify-content: center;
+  
+}
