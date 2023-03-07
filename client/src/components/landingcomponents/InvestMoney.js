@@ -4,6 +4,10 @@ import LandingImage01 from './images/LandingImage01.svg';
 function InvestMoney() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center vh-100">
+      <section>
+        <a href="https://borrow4less.ca/">Maling List Sign Up</a>
+      </section>
+
       <section id="image-section" className="text-center mb-5">
         <img
           src={LandingImage01}
@@ -32,7 +36,7 @@ function InvestMoney() {
         <button className="btn btn-primary mb-3">Create Your Account</button>
         <button
           className="btn btn-primary"
-          style={{ backgroundColor: 'white' , color: 'black'}}
+          style={{ backgroundColor: 'white', color: 'black' }}
         >
           Login into your account
         </button>
