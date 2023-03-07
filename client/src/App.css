@@ -1,7 +1,5 @@
-.Money-Tree-Image {
-  margin: 0 auto;
-  left: 10px;
-}
+/* 
+*/
 .title-user-selection {
   display: flex;
   justify-content: center;
@@ -12,6 +10,37 @@
   justify-content: center;
 }
 
+/*
+INVEST MONEY SECTION START  
+*/
+
+#header-section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font: Karla;
+  weight: 700;
+}
+
+#button-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons-section button {
+  margin-bottom: 10px;
+}
+
+/*
+INVEST MONEY SECTION END  
+*/
+
+.active {
+  color: red;
+}
+
 .borrower-image {
   width: 200px; /* replace with your desired width */
 }
@@ -19,12 +48,11 @@
 .lender-image {
   width: 200px; /* replace with your desired width */
 }
-.bottom-section{
+.bottom-section {
   display: flex;
   justify-content: center;
 }
-.user-selection-login{
+.user-selection-login {
   display: flex;
   justify-content: center;
-  
 }
