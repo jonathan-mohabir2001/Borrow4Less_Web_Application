@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import LandingImage03 from './images/LandingImage03.svg';
 
 function WithdrawDeposit() {
@@ -25,18 +25,20 @@ function WithdrawDeposit() {
           in time without stress.
         </p>
       </section>
-
       <section
         id="button-section"
         className="buttons-section d-flex flex-column align-items-center"
       >
-        <button className="btn btn-primary mb-3">Create Your Account</button>
-        <button
+        <Link to="/signUp" className="btn btn-primary mb-3">
+          Create Your Account
+        </Link>
+        <Link
+          to="/signIn"
           className="btn btn-primary"
           style={{ backgroundColor: 'white', color: 'black' }}
         >
           Login into your account
-        </button>
+        </Link>
       </section>
     </div>
   );

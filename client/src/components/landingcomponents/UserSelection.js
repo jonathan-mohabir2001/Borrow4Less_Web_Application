@@ -2,6 +2,9 @@ import React from 'react';
 
 import BorrowerImage from './images/BorrowerImage.svg';
 import LenderImage from './images/LenderImage.svg';
+
+import { Link } from 'react-router-dom';
+
 function UserSelection() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center vh-100">
@@ -33,7 +36,9 @@ function UserSelection() {
       </header>
 
       <section className="user-selection-login">
-        <button className="btn btn-primary">Login into your account</button>
+        <Link to="/signIn" className="btn btn-primary">
+          Login into your account
+        </Link>
       </section>
     </div>
   );
