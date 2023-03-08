@@ -10,6 +10,10 @@ function InvestMoney() {
         <a href="https://borrow4less.ca/">Maling List Sign Up</a>
       </section>
 
+      <section>
+        <h1>Test test</h1>
+      </section>
+
       <section id="image-section" className="text-center mb-5">
         <img
           src={LandingImage01}
