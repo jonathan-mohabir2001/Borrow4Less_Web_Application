@@ -4,8 +4,8 @@ import LandingImage03 from './images/LandingImage03.svg';
 
 function WithdrawDeposit() {
   return (
-    <div className="container">
-      <section>
+    <div className="d-flex flex-column justify-content-center align-items-center vh-100">
+      <section id="image-section" className="text-center mb-5">
         <img
           src={LandingImage03}
           alt="Withdraw Deposit"
@@ -13,23 +13,30 @@ function WithdrawDeposit() {
         ></img>
       </section>
 
-      <section>
+      <section id="header-section" className="text-center mb-3">
         <header>
           <h2>Withdraw and Deposit money</h2>
         </header>
       </section>
 
-      <section>
+      <section id="text-section" className="text-center mb-5">
         <p>
           With just a click, you can withdraw or deposit your funds at any point
           in time without stress.
         </p>
       </section>
 
-      <section className="buttons-section">
-        <button className="btn btn-primary">Create Your Account</button>
-        <br></br>
-        <button className='btn btn-primary"'> Login into your account</button>
+      <section
+        id="button-section"
+        className="buttons-section d-flex flex-column align-items-center"
+      >
+        <button className="btn btn-primary mb-3">Create Your Account</button>
+        <button
+          className="btn btn-primary"
+          style={{ backgroundColor: 'white', color: 'black' }}
+        >
+          Login into your account
+        </button>
       </section>
     </div>
   );

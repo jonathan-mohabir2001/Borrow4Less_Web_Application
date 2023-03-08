@@ -3,6 +3,7 @@
 .title-user-selection {
   display: flex;
   justify-content: center;
+  margin-bottom: 15vh;
 }
 
 .types-of-users-images {

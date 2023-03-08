@@ -4,7 +4,7 @@ import BorrowerImage from './images/BorrowerImage.svg';
 import LenderImage from './images/LenderImage.svg';
 function UserSelection() {
   return (
-    <div className="container justify-content-center">
+    <div className="d-flex flex-column justify-content-center align-items-center vh-100">
       <section className="title-user-selection">
         <header>
           <h2>Sign Up as A </h2>
