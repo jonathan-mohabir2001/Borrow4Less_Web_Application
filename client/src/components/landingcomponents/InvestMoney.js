@@ -1,6 +1,8 @@
 import React from 'react';
 import LandingImage01 from './images/LandingImage01.svg';
 
+import { Link } from 'react-router-dom';
+
 function InvestMoney() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center vh-100">
@@ -33,13 +35,16 @@ function InvestMoney() {
         id="button-section"
         className="buttons-section d-flex flex-column align-items-center"
       >
-        <button className="btn btn-primary mb-3">Create Your Account</button>
-        <button
+        <Link to="/signUp" className="btn btn-primary mb-3">
+          Create Your Account
+        </Link>
+        <Link
+          to="/signIn"
           className="btn btn-primary"
           style={{ backgroundColor: 'white', color: 'black' }}
         >
           Login into your account
-        </button>
+        </Link>
       </section>
     </div>
   );

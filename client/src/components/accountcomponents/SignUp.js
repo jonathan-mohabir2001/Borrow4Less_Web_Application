@@ -4,14 +4,12 @@ import React from 'react';
 
 // import the firebase auth service
 
-
-
 function SignUp() {
   return (
-  <div>
-
-
-  </div>); 
+    <div>
+      <h1>Sign Up</h1>
+    </div>
+  );
 }
 
 export default SignUp;

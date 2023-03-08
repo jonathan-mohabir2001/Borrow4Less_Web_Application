@@ -8,6 +8,9 @@ import InvestMoney from './components/landingcomponents/InvestMoney';
 import UserSelection from './components/landingcomponents/UserSelection';
 import WithdrawDeposit from './components/landingcomponents/WithdrawDeposit';
 
+import SignIn from './components/accountcomponents/SignIn';
+import SignUp from './components/accountcomponents/SignUp';
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +25,10 @@ function App() {
           path="/landing-user-selection"
           element={<UserSelection />}
         ></Route>
+
+        <Route path="/signIn" element={<SignIn />}></Route>
+
+        <Route path="/signUp" element={<SignUp />}></Route>
       </Routes>
     </div>
   );
