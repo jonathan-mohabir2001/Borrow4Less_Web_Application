@@ -1,6 +1,4 @@
 import './App.css';
-
-
 import { Routes, Route } from 'react-router-dom';
 // Children of BrowserRouter -- index.js conatains parent.
 
