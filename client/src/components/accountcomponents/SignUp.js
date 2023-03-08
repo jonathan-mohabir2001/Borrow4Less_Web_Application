@@ -1,8 +1,8 @@
 // functional component to represent Sign Up Process
 // Incorporate Google and Apple Sign Up Options.
+// Incorporate Email and Password Sign Up Option, for the MongoDB database, express server, and Node.js backend.
 import React from 'react';
-
-// import the firebase auth service
+import axios from 'axios';
 
 function SignUp() {
   return (
