@@ -3,10 +3,12 @@
 import React from 'react';
 import axios from 'axios';
 
+import { useState, useEffect } from 'react';
+
 function SignUpWithEmail() {
   return (
     <div>
-      <h1>Sign Up With Email</h1>
+      <h1>Enter your Own Email</h1>
     </div>
   );
 }
